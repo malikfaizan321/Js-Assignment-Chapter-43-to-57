@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 49-52</title>
+  </head>
+  <style>
+    form > * {
+      display: block;
+      margin: 1rem 0;
+    }
+
+    #more-content {
+      display: none;
+    }
+
+    .table > table {
+      margin: 2rem auto;
+    }
+
+    .secret-form {
+      display: none;
+    }
+  </style>
+  <body>
+    <form action="" onsubmit="formSubmitHandler(event)">
+      <h3>First Name</h3>
+      <input id="f-name" type="text" placeholder="First Name" />
+      <h3>Last Name</h3>
+      <input id="l-name" type="text" placeholder="Last Name" />
+      <h3>Email</h3>
+      <input id="email" type="email" placeholder="Email" />
+      <h3>Password</h3>
+      <input id="password" type="password" placeholder="Password" />
+      <button type="submit">Register Now</button>
+    </form>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, non! Quis
+      aliquid, aliquam, obcaecati veniam alias doloremque voluptas eum quae quo,
+      placeat optio fugit nam sunt harum qui non sequi.
+      <a href="#" onclick="readMore()">Read More...</a>
+    </p>
+    <p id="more-content">
+      Temporibus quas similique, consequuntur fugit nemo ipsam, maxime dolorem
+      consequatur ipsa sint veniam soluta culpa laborum? Libero repellendus
+      omnis sunt dolor aspernatur! Eveniet tempore quis ipsam obcaecati cum
+      temporibus ad, laboriosam, amet vel asperiores vero adipisci quas
+      inventore sint. Incidunt, deserunt libero est eos odit delectus corporis
+      exercitationem voluptates, necessitatibus voluptatem pariatur! Maxime non
+      quisquam nostrum modi hic dolore placeat, incidunt, in saepe earum
+      recusandae ducimus? Reprehenderit voluptatum asperiores accusantium
+      tempora error. Ut enim perspiciatis, explicabo ad esse ex soluta impedit
+      quo quasi accusamus nam. Tenetur, illo! Culpa mollitia nostrum repellat
+      tenetur eaque, atque cupiditate eius cumque asperiores inventore? Ratione
+      consequatur, iusto error a quis dolores! Perspiciatis harum maxime
+      delectus. Vel consequatur doloribus, impedit similique consectetur dicta
+      praesentium, perspiciatis labore tempora repellat alias? Quae, consequatur
+      blanditiis ratione error minima sapiente rerum magnam nostrum facilis
+      similique illum reprehenderit labore quibusdam quis eum. Temporibus
+      suscipit provident autem impedit recusandae minima harum fugit illo facere
+      voluptate eligendi nostrum id reprehenderit esse itaque illum aut eos,
+      cupiditate est consequuntur ipsum perferendis quasi minus sint? Libero
+      optio dolor repudiandae quisquam, debitis ullam asperiores magnam eos
+      deserunt, vel cumque recusandae quibusdam, ex amet deleniti nemo repellat
+      unde ea.
+    </p>
+
+    <div class="table">
+      <table>
+        <tr>
+          <th>Index</th>
+          <th>Name</th>
+          <th>Class</th>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>John</td>
+          <td>10</td>
+          <td><button class="delete">Delete</button></td>
+          <td><button class="edit">Edit</button></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Doe</td>
+          <td>9</td>
+          <td><button class="delete">Delete</button></td>
+          <td><button class="edit">Edit</button></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Mark</td>
+          <td>10</td>
+          <td><button class="delete">Delete</button></td>
+          <td><button class="edit">Edit</button></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>James</td>
+          <td>8</td>
+          <td><button class="delete">Delete</button></td>
+          <td><button class="edit">Edit</button></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Jane</td>
+          <td>2</td>
+          <td><button class="delete">Delete</button></td>
+          <td><button class="edit">Edit</button></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Robert</td>
+          <td>7</td>
+          <td><button class="delete">Delete</button></td>
+          <td><button class="edit">Edit</button></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>John cena</td>
+          <td>8</td>
+          <td><button class="delete">Delete</button></td>
+          <td><button class="edit">Edit</button></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Ronaldo</td>
+          <td>10</td>
+          <td><button class="delete">Delete</button></td>
+          <td><button class="edit">Edit</button></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Geordi</td>
+          <td>5</td>
+          <td><button class="delete">Delete</button></td>
+          <td><button class="edit">Edit</button></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Tom</td>
+          <td>0</td>
+          <td><button class="delete">Delete</button></td>
+          <td><button class="edit">Edit</button></td>
+        </tr>
+      </table>
+    </div>
+    <form action="" class="secret-form">
+      <h3>Name</h3>
+      <input type="text" placeholder="Name" />
+      <h3>Marks</h3>
+      <input type="text" placeholder="Class" />
+      <button type="submit">Submit</button>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
